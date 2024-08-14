@@ -68,20 +68,20 @@ namespace EstruturaDados.Exercicios
 
             //Terceiro nome escolhido Denis -> Posição 107 do array
             BuscaBinaria terceiroExperimento = new BuscaBinaria(lista128nomes, Array.IndexOf(lista128nomes, "Denis")); //107
-            //Resultado: 5 tentativas
+                                                                                                                       //Resultado: 5 tentativas
 
 
             //Exercicio 1.2: Suponha que você duplique o tamanho da lista. Qual seria o número máximo de etapas agora?
-            
-            //Primeiro nome escolhido Denis -> Posição 37 do array
+
+            //Primeiro nome escolhido Michelle Smith -> Posição 37 do array
             BuscaBinaria quartoExperimento = new BuscaBinaria(lista256nomes, Array.IndexOf(lista256nomes, "Michelle Smith")); //37
             //Resultado: 7 tentativas
 
-            //Segundo nome escolhido Denis -> Posição 134 do array
+            //Segundo nome escolhido Thomas Little -> Posição 134 do array
             BuscaBinaria quintoExperimento = new BuscaBinaria(lista256nomes, Array.IndexOf(lista256nomes, "Thomas Little")); //134
             //Resultado: 8 tentativas
 
-            //Terceiro nome escolhido Denis -> Posição 253 do array
+            //Terceiro nome escolhido Dale Lynch -> Posição 253 do array
             BuscaBinaria sextoExperimento = new BuscaBinaria(lista256nomes, Array.IndexOf(lista256nomes, "Dale Lynch")); //253
             //Resultado: 7 tentativas
         }
